@@ -89,3 +89,39 @@
 
 
 
+# data = [[100,1,4],[100,3,6],[100,2,1],[100,4,0]]
+# #昇順でソートする
+# #多次元リストで複数キーをソートする
+# sorted_data = sorted(data, key=lambda x:(x[1]))
+# # print(for veg in sorted_data)
+# # for veg in sorted_data:
+    
+#      #data = [['とうふ',1,0],['きゅうり',1,4],['にんじん',2,1],['いちご',2,6]]
+
+# N = int(input())
+# a = [input()]
+# for i in a:
+#     if reversed(i) == i:
+N = map(int,input())
+a = map(int,input().split())
+n = 'False'
+for i in a:
+    if i < 0:
+        n = 'False'
+    elif str(i)[::-1] == str(i):
+        n = 'True'
+
+print(n)
+
+
+
+
+print(a)
+
+
+
+# n = []
+# for i in a:
+#     if i == i[::-1]:
+#         n.append(True)
+# print(any(n))
