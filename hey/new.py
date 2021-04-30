@@ -1,4 +1,5 @@
 #Happy Friday
+#Bominの変更
 # N = int(input())
 # lst = [input() for i in range(N)]
 # new = []
